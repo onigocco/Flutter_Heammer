@@ -1,0 +1,29 @@
+name: heammer
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  bubble_tab_indicator:
+  flare_flutter:
+  dio:
+  fluttertoast:
+  flutter_easyrefresh:
+  sprintf:
+  video_player:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/refresh/
+    - assets/flare/
